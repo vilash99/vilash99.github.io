@@ -1,0 +1,45 @@
+@import "./main.css";
+
+.title-text {
+    font-weight: bold;
+    font-size: var(--blog-title-size);
+}
+
+.gray-text {
+    color: var(--light-gray-color);
+}
+
+.sub-text {
+    font-size: var(--blog-content-text-size);
+}
+
+.input-controls {
+    display: block;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    width: 400px;
+    padding: 0.375rem 0.75rem;
+    margin: var(--section-up-margin-small) 0;
+}
+
+input.input-controls {
+    height: var(--button-height);
+}
+
+.btn-contact-us {
+    width: 190px;
+    height: var(--button-height);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s ease-out;
+    margin-bottom: var(--section-up-margin-big);
+}
+
+.btn-contact-us:hover {
+    background-color: #D9B13B;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
